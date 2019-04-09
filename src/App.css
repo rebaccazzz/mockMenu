@@ -1,0 +1,31 @@
+.menu{
+  display:flex
+}
+.category{
+  width:30%;
+}
+.list:hover{
+background-color:lightgray;
+cursor:pointer;
+border:1px solid black;
+}
+
+.table {
+  margin: 50px;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+.table tr:hover{
+  background-color: lightcoral
+}
+
+.table td,th{
+  border:1px solid black;
+}
+
+.table tr:nth-child(odd) {
+  background-color: lightgrey;
+}
